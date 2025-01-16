@@ -1,10 +1,10 @@
 # rtviz
 
-**rtviz** is a program for visualizing reading times with an interactive dashboard.
+**rtviz** is a command-line tool for visualizing reading times with an interactive dashboard.
 
 The Reading Times Dashboard displays reading times per word. The chart can be adjusted by applying filters. If the original stimuli contained words marked with an asterisk (maximally one per stimulus), the chart in the dashboard can be aligned according to those *words of interest*, using the optional command-line argument (`-a` or `--align`). Stimuli without any marked words are displayed unaligned (using the usual word index starting at 1).
 
-In principle, this program can be used independently from `rtexp`, but note that `rtviz` needs an input `.csv` file containing reading times data and some metadata, as can be obtained from running `rtexp`.
+In principle, this program can be used independently from [`rtexp`](https://github.com/kathelijnewendt/rtexp), but note that `rtviz` needs an input `.csv` file containing reading times data and some metadata, as can be obtained from running `rtexp`.
 
 ### Install
 
