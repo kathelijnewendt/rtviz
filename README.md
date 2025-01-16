@@ -8,6 +8,10 @@ In principle, this program can be used independently from `rtexp`, but note that
 
 ### Install
 
+```bash
+$ pipx install git+https://github.com/kathelijnewendt/rtviz
+```
+
 ### Use
 
 For visualizing the sample data in `example_readingtimes.csv`, execute the following line to align the chart according to *words of interest*, and to run the Reading Times Dashboard (control-click the url in the terminal to view the app in a browser).
