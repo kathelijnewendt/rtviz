@@ -10,7 +10,7 @@ In principle, this program can be used independently from `rtexp`, but note that
 
 ### Use
 
-Using the sample file `example_readingtimes.csv`, execute the following line to align the chart according to *words of interest*, and to run the Reading Times Dashboard.
+For visualizing the sample data in `example_readingtimes.csv`, execute the following line to align the chart according to *words of interest*, and to run the Reading Times Dashboard (control-click the url in the terminal to view the app in a browser).
 ```bash
-rtviz example_readingtimes.csv -a
+$ rtviz example_readingtimes.csv --align
 ```
